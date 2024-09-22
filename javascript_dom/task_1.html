@@ -1,0 +1,22 @@
+<!-- // Create an HTML file with a paragraph element and a button. Write a JavaScript function to change the text of the paragraph element to "Hello, World!" when the button is clicked.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1</title>
+</head>
+<body>
+  <p id="paragraph">Hello, JavaScript!</p>
+  <button id="button">Click me!</button>
+
+  <script>
+    document.getElementById('button').addEventListener('click', function() {
+      document.getElementById('paragraph').innerText = 'Hello, World!';
+    });
+  </script>
+
+</body>
+
+</html>

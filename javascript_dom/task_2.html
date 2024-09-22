@@ -1,0 +1,20 @@
+<!-- // Write a program that changes the background color of a <div> element to blue when the mouse hovers over it. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2</title>
+</head>
+<body>
+</body>
+  <div id="div" style="width: 200px; height: 200px; background-color: red;"></div>
+
+  <script>
+    document.getElementById('div').addEventListener('mouseover', function() {
+      document.getElementById('div').style.backgroundColor = 'blue';
+    });
+  </script>
+</body>
+
+</html>
